@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 try:
     cluster = MongoClient(
-        "mongodb+srv://phantom:y68qtE8SMRevBA2M@cluster0.uyud2.mongodb.net/md5?retryWrites=true&w=majority")
+        <mongo clint>)
     db = cluster["message"]
     collection = db["message_api"]
 
